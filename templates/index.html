@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nick David - Writer, urban pastorilist, bard of the everyday spectacle!">
+    <title>Nick David - Writer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="page-home">
+    <header>
+        <h1>Nick David</h1>
+        <p>Writer, urban pastoralist, Bard of the everyday spectacle!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Welcome</h2>
+
+        <div class="hero-image">
+            <img src="{{ url_for('static', filename='images/IMG_2197.jpg') }}" alt="Nick David">
+        </div>
+
+        <p>
+            This is the official website of <strong>Nick David</strong>, San Francisco's most prominent urban mytholographer!
+        </p>
+
+        <hr>
+
+        <h3>Recent Work</h3>
+
+        <p>
+            Explore the <a href="{{ url_for('portfolio') }}">portfolio section</a> to read recent
+            articles, and creative pieces.
+        </p>
+
+        <h3>Contact</h3>
+
+        <p>
+            For inquiries please reach out via
+            the contact information provided on the <a href="{{ url_for('about') }}">about page</a>.
+        </p>
+
+        <blockquote>
+            "I have a Dream" <br>
+            <em> --  </em>
+        </blockquote>
+    </main>
+
+    <footer>
+        <p>&copy; 1996 Nick David. All rights reserved. | Website designed in solidarity with Accelerationist Cybercommunism Theory</p>
+    </footer>
+</body>
+</html>
