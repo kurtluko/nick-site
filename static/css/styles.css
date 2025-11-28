@@ -1,0 +1,211 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page-specific background colors */
+body.page-home {
+    background-color: #2d5aed;
+    color: #000000;
+}
+
+body.page-about {
+    background-color: #f4e4a0;
+    color: #000000;
+}
+
+body.page-portfolio {
+    background-color: #FFB6C1;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: transparent;
+    color: inherit;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+header p {
+    font-size: 1em;
+    margin: 5px 0 0 0;
+}
+
+/* Navigation */
+nav {
+    background-color: transparent;
+    padding: 10px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+nav a:visited {
+    color: inherit;
+    opacity: 0.8;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    color: inherit;
+    font-size: 1.5em;
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    color: inherit;
+    font-size: 1.2em;
+    margin: 15px 0 10px 0;
+}
+
+p {
+    margin: 0 0 15px 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+/* Lists */
+ul, ol {
+    margin: 0 0 15px 30px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Portfolio items */
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item h3 {
+    color: inherit;
+    margin: 10px 0 5px 0;
+}
+
+.portfolio-item .meta {
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: inherit;
+}
+
+/* Footer */
+footer {
+    background-color: transparent;
+    color: inherit;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid currentColor;
+    opacity: 0.5;
+    margin: 20px 0;
+}
+
+/* Image float */
+.hero-image {
+    float: right;
+    margin: 0 0 15px 20px;
+    width: 300px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-image p {
+    margin: 5px 0 0 0;
+    font-size: 0.85em;
+    font-style: italic;
+    text-align: center;
+    color: inherit;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .hero-image {
+        float: none;
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+}
